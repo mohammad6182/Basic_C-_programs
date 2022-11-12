@@ -14,33 +14,45 @@ namespace DailyReport
             Console.WriteLine("The Tech Academy!");
             Console.WriteLine("Student Daily Report");  
             Console.WriteLine("What is your name?");
-            String yourName = Console.ReadLine();
+            string yourName = Console.ReadLine();
             Console.WriteLine(yourName  +  ", Welcome to The Tech Academy!");
             Console.ReadLine();
             Console.WriteLine("What course are you on?");
-            String yourCourse = Console.ReadLine();
+            string yourCourse = Console.ReadLine();
             Console.WriteLine("You will enjoy " + yourCourse);
             Console.ReadLine();
             Console.WriteLine("What page number?");
-            String currPage = Console.ReadLine();
+            int currPage =Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your progress is appreciated");
             Console.ReadLine();
-            Console.WriteLine("Do you need help with anything?");
-            bool NeedHelp = true;
-            bool NoHelp = false;
-            Console.WriteLine(NeedHelp);
-            Console.WriteLine(NoHelp);
-            Console.ReadLine();
+            // keeping the old code as DONT DO THIS :)
+            //Console.WriteLine("Do you need help with anything?");
+            //bool needHelp = true;
+            //bool noHelp = false;
+            //Console.WriteLine(needHelp);
+            //Console.WriteLine(noHelp);
+            //Console.ReadLine();
+
+            Console.WriteLine("Do you need help with anything(Yes/No)?");
+            string answer = Console.ReadLine().Trim().ToLower();
+            if(answer == "yes")
+            {
+                Console.WriteLine("We can help you, Please call us");
+            } else if(answer == "no")
+            {
+                Console.WriteLine("Good job, keep up the good work");
+            }
+
             Console.WriteLine("Where There any experience you'd like to share? Please give specifics.");
-            String experience = Console.ReadLine();
+            string experience = Console.ReadLine();
             Console.WriteLine(yourName + ", We appreciate your feedback ");
             Console.ReadLine();
             Console.WriteLine("Is there any other feedback you's like to provide? Please give specifics.");
-            String feedback = Console.ReadLine();
+            string feedback = Console.ReadLine();
             Console.WriteLine(yourName + ", We appreciate your feedback ");
             Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
-            String studyHour = Console.ReadLine();
+            string studyHour = Console.ReadLine();
             Console.WriteLine("wow!" + studyHour + " is some real work, Good job" + yourName);
             Console.ReadLine();
             Console.WriteLine(" Thank you for your answers. An instructor will respond to this shortly. Have a great day!");

@@ -1,0 +1,7 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\bin\Debug\WhileandDowhile.exe.config
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\bin\Debug\WhileandDowhile.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\bin\Debug\WhileandDowhile.pdb
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\obj\Debug\WhileandDowhile.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\obj\Debug\WhileandDowhile.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\obj\Debug\WhileandDowhile.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\WhileandDowhile\WhileandDowhile\obj\Debug\WhileandDowhile.pdb

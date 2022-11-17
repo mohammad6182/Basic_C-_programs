@@ -33,12 +33,12 @@ namespace DailyReport
             //Console.WriteLine(noHelp);
             //Console.ReadLine();
 
-            Console.WriteLine("Do you need help with anything(Yes/No)?");
-            string answer = Console.ReadLine().Trim().ToLower();
-            if(answer == "yes")
+            Console.WriteLine("Do you need help with anything(true/false)?");
+            bool answer = Convert.ToBoolean(Console.ReadLine());
+            if(answer == true)
             {
                 Console.WriteLine("We can help you, Please call us");
-            } else if(answer == "no")
+            } else if(answer == false)
             {
                 Console.WriteLine("Good job, keep up the good work");
             }

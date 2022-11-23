@@ -1,0 +1,7 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\bin\Debug\Iteration.exe.config
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\bin\Debug\Iteration.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\bin\Debug\Iteration.pdb
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\obj\Debug\Iteration.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Iteration\Iteration\obj\Debug\Iteration.pdb

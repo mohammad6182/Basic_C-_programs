@@ -1,0 +1,7 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\bin\Debug\page256Assignment.exe.config
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\bin\Debug\page256Assignment.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\bin\Debug\page256Assignment.pdb
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\obj\Debug\page256Assignment.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\obj\Debug\page256Assignment.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\obj\Debug\page256Assignment.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page256Assignment\page256Assignment\obj\Debug\page256Assignment.pdb

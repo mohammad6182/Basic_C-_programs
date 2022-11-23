@@ -22,7 +22,7 @@ namespace ArraySubmiission
 
             }
 
-            string[] mineNumbers = { "1", "3", "9" };
+            int[] mineNumbers = { 1,3,9,16,444 };
             Console.WriteLine("Please choose a index number");
             int index1 = Convert.ToInt32(Console.ReadLine());
             if (index1 < mineNumbers.Length)
@@ -33,6 +33,15 @@ namespace ArraySubmiission
             if (index1 > mineNumbers.Length)
             {
                 Console.WriteLine("No, That is ot a valid choice, try again");
+                Console.ReadLine();
+            }
+
+            List<string> names = new List<string>() { "John", "Alex", "Mike", "Tom" };
+            Console.WriteLine("Choose index to show name");
+            int index2 = Convert.ToInt32(Console.ReadLine());
+            if (index2 < names.Count)
+            {
+                Console.WriteLine(names[index2]);
                 Console.ReadLine();
             }
 

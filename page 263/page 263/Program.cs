@@ -17,10 +17,9 @@ namespace page_263
                 Console.WriteLine("Pick a number to start dividing...");
                 // converting to int to start dividing
                 int d = Convert.ToInt32(Console.ReadLine());
-                for (int n = 0; n < numbers.Count; n++)
+                foreach (int i in numbers)
                 {
-                    Console.WriteLine(n / d);
-                    Console.ReadLine();
+                    Console.WriteLine(i / d);
                 }
                 
                 

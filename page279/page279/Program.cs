@@ -10,6 +10,19 @@ namespace page279
     {
         static void Main(string[] args)
         {
+            Mathopp x = new Mathopp();
+            
+            Console.WriteLine("pick a number");
+            int numbers = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(x.MAssighnment(numbers));
+
+            Console.WriteLine("pick a number");
+            decimal number1 = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine(x.MAssighnment(number1));
+            Console.ReadLine();
         }
+        
     }
 }

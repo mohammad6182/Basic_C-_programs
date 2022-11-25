@@ -17,6 +17,11 @@ namespace page256Assignment
             for(int i = 0; i < colors.Length; i++)
             {
                 colors[i] += color;
+                
+            }
+            for (int i = 0; i < colors.Length; i++)
+            {
+                
                 Console.WriteLine(colors[i]);
             }
             //Part Two
@@ -52,11 +57,13 @@ namespace page256Assignment
                 if(names[n] == name)
                 {
                     Console.WriteLine("match found at index number " + n);
+                    break;
                 }
-                else
-                {
-                    Console.WriteLine("Name doesnt exist");
-                }
+             
+            }
+            if (!names.Contains(name))
+            {
+                Console.WriteLine("Name doesnt exist");
             }
 
 
@@ -70,22 +77,26 @@ namespace page256Assignment
                 {
                     Console.WriteLine("We have that in our list, thst is phone number " + p);
                 }
-                else
-                {
-                    Console.WriteLine("We dont have that brand");
-                }
+                
+            }
+            if (!phones.Contains(phone))
+            {
+                Console.WriteLine("We dont have that brand");
             }
 
-
-            //Part Six
-            List<string> alphabets = new List<string>() { "A", "B", "D", "X", "X" };
-            Console.WriteLine("Here are our List's Unique Level");
-            string alphabet = Console.ReadLine();
-            for (int a = 0; a < alphabets.Count; a++)
+            //part six
+            List<string> alphabets = new List<string>() { "a", "b", "d", "x", "x" };
+            List<string> duplicate = new List<string>();
+            foreach (string a in alphabets)
             {
-                if ()
+                if (duplicate.Contains(a))
                 {
-
+                    Console.WriteLine("alphabet is a duplicate" + a);
+                }
+                else
+                {
+                    Console.WriteLine("It is a unique item" + a);
+                    duplicate.Add(a);
                 }
             }
 

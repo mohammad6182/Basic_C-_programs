@@ -22,6 +22,12 @@ namespace page279
 
             Console.WriteLine(x.MAssighnment(number1));
             Console.ReadLine();
+
+            Console.WriteLine("pick a number");
+            string  word1 = Convert.Toint32(Console.ReadLine());
+
+            Console.WriteLine(x.MAssighnment(word1));
+            Console.ReadLine();
         }
         
     }

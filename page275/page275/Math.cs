@@ -6,22 +6,58 @@ using System.Threading.Tasks;
 
 namespace page275
 {
-   public class Math
+
+    class Math // this is my new class
     {
-        static void Main(string[] args)
+
+
+        public int mathAssignment(int numbers)
         {
-            List<int> numbers = new List<int>() { 2, 3, 5, 7, 8 };
-            Console.WriteLine("Add a number: ");
-            int numbers2 = Convert.ToInt32(Console.ReadLine());
-            foreach (int num in numbers2)
-            {
-                if (num >= 0)
-                {
-                    Console.WriteLine(num + numbers);
-                    
-                }
-                Console.ReadLine();
-            }
+            int results = numbers + 5;
+            return results;
         }
+
+        // second method 
+        public int mathAssignmnet(int number1)
+        {
+            int results = number1 - 1;
+            return results;
+        }
+
+        // third method
+        public int mathAssignment(int number2)
+        {
+            int results = number2 * 3;
+            return results;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
     }
 }
+

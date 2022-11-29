@@ -24,7 +24,7 @@ namespace page279
             Console.ReadLine();
 
             Console.WriteLine("pick a number");
-            string  word1 = Convert.Toint32(Console.ReadLine());
+            string word1 = Console.ReadLine();
 
             Console.WriteLine(x.MAssighnment(word1));
             Console.ReadLine();

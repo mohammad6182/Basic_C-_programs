@@ -22,7 +22,7 @@ namespace page279
         }
         public string MAssighnment(string w)
         {
-            int results = (Convert.ToInt32(w) * 2);
+            int results = 
             return results;
         }
     }

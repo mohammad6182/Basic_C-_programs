@@ -8,10 +8,10 @@ namespace page285
 {
     class math
     {
-        public void myAssignment(int number1)
+        public void myAssignment(out int a)
         {
-            int results = number1 / 2;
-            return ;
+            int temp = 7;
+            a = temp / 2;
         } 
         
     }

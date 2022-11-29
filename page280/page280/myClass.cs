@@ -9,9 +9,9 @@ namespace page280
     class myClass
     {
         //first method
-        public int Math1(int number1)
+        public int Math1(int number1, int number2)
         {
-            int results = number1 + 1;
+            int results = number1 + number2 + 1;
             return results;
         }
     }

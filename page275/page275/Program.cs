@@ -20,12 +20,13 @@ namespace page275
             Console.WriteLine("pick a number");
             int number1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(x.mathAssignment(number1));
+            Console.WriteLine(x.mathAssignmnet1(number1));
 
             Console.WriteLine("pick a number");
             int number2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(x.mathAssignment(number2));
+            Console.WriteLine(x.mathAssignment2(number2));
+            Console.ReadLine();
         }
     }
 }

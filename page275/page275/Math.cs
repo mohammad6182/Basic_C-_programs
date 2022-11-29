@@ -18,14 +18,14 @@ namespace page275
         }
 
         // second method 
-        public int mathAssignmnet(int number1)
+        public int mathAssignmnet1(int number1)
         {
             int results = number1 - 1;
             return results;
         }
 
         // third method
-        public int mathAssignment(int number2)
+        public int mathAssignment2(int number2)
         {
             int results = number2 * 3;
             return results;

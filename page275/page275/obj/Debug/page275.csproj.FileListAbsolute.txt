@@ -1,2 +1,7 @@
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\obj\Debug\page275.csproj.AssemblyReference.cache
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\obj\Debug\page275.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\bin\Debug\page275.exe.config
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\bin\Debug\page275.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\bin\Debug\page275.pdb
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\obj\Debug\page275.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\page275\page275\obj\Debug\page275.pdb

@@ -12,21 +12,15 @@ namespace page279
         {
             Mathopp x = new Mathopp();
             
-            Console.WriteLine("pick a number");
-            int numbers = Convert.ToInt32(Console.ReadLine());
+            
 
-            Console.WriteLine(x.MAssighnment(numbers));
+            Console.WriteLine(x.MAssighnment(5));
+            Console.WriteLine(x.MAssighnment(9.3m));
+            Console.WriteLine(x.MAssighnment("3"));
 
-            Console.WriteLine("pick a number");
-            decimal number1 = Convert.ToDecimal(Console.ReadLine());
 
-            Console.WriteLine(x.MAssighnment(number1));
-            Console.ReadLine();
 
-            Console.WriteLine("pick a number");
-            string word1 = Console.ReadLine();
-
-            Console.WriteLine(x.MAssighnment(word1));
+            
             Console.ReadLine();
         }
         

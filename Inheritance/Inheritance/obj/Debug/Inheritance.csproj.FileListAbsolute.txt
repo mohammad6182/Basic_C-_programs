@@ -1,0 +1,2 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache

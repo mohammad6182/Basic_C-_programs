@@ -10,9 +10,8 @@ namespace page292
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.SayName = new List<string>() { "John", "Alex", "Mark", "Tom", "Sam" };
-            person.ListFullName();
+            Employee person = new Employee() { FirstName="Sample", LastName="Student"};
+            person.SayName();
             Console.ReadLine();
 
 
@@ -20,12 +19,7 @@ namespace page292
 
 
 
-            //Console.WriteLine("What is your first name");
-            //string FirstName = Console.ReadLine();
-            //Console.WriteLine("whay is your last name ");
-            //string LastName = Console.ReadLine();
-            //Console.WriteLine("Name: " + FirstName + LastName);
-            //Console.ReadLine();
+          
         }
     }
 }

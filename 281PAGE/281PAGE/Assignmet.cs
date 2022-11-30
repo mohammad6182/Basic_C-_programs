@@ -11,7 +11,8 @@ namespace page281
         public void Math(int number1, int number2)
         {
             int results = number1 + 6;
-            return results;
+            Console.WriteLine(number2);
+           
         }
     }
 }

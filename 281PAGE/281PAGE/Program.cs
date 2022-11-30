@@ -14,7 +14,8 @@ namespace page281
             Console.WriteLine("pick two numbers");
             int number1 = Convert.ToInt32(Console.ReadLine());
             int number2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(number2);
+            x.Math(number1, number2);
+            x.Math(number1 = 5, number2 = 6);
             Console.ReadLine();
         }
     }

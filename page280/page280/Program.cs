@@ -10,19 +10,22 @@ namespace page280
     {
         static void Main(string[] args)
         {
+
+            myClass x = new myClass();
+            Console.WriteLine("pick 2 numbers, 2nd number is not requird");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+
+
             try
             {
-                myClass x = new myClass();
-                Console.WriteLine("pick 2 numbers");
-                int number1 = Convert.ToInt32(Console.ReadLine());
+                
                 int number2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x.Math1(number1, number2));
                 Console.ReadLine();
             }
-            catch (FormatException ex)
+            catch (FormatException )
             {
-                // this is an automatic massage 
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(x.Math1(number1));
             }
             finally
             {

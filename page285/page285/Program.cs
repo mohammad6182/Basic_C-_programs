@@ -13,7 +13,12 @@ namespace page285
             math x = new math();
             Console.WriteLine("pick a number");
             int number = Convert.ToInt32(Console.ReadLine());
-            math math = new math();
+            x.myAssignment(number, out int a);
+            Console.WriteLine(a);
+            Console.ReadLine();
+            x.myAssignment(number);
+            Console.ReadLine();
+
         }
     }
 }

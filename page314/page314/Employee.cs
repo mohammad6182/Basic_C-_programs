@@ -12,9 +12,13 @@ namespace page314
         public string Lname { get; set; }
         public int iD { get; set; }
 
-        public static Employee operator= (Fname , Lname)
+        public static bool operator == (Employee e1, Employee e2)
         {
-
+            return e1.iD == e2.iD;
+        }
+        public static bool operator !=(Employee e1, Employee e2)
+        {
+            return e1.iD != e2.iD;
         }
     }
 }

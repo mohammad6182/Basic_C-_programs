@@ -10,6 +10,18 @@ namespace page314
     {
         static void Main(string[] args)
         {
+            Employee e2 = new Employee()
+            {
+                iD = 2
+            };
+            Employee e1 = new Employee()
+            {
+                iD = 3
+            };
+            Console.WriteLine(e1 == e2);
+            Console.WriteLine(e1 != e2);
+            Console.ReadLine();
+
         }
     }
 }

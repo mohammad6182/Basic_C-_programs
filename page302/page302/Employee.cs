@@ -12,9 +12,10 @@ namespace page302
         {
             Console.WriteLine("name : " + this.FirstName + " " + this.LastName) ; 
         }
-        public void Quit(Employee employee)
+        public void Quit()
         {
-
+            Console.WriteLine("I Quit");
+            
         }
 
     }

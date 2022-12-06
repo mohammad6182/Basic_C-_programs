@@ -12,14 +12,15 @@ namespace page302
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee()
+            IQuittable employee = new Employee()
             {
                 FirstName = "Sample",
                 LastName = "Student"
 
             };
-            employee.SayName();
+            employee.Quit();
             Console.ReadLine();
         }
+
     }
 }

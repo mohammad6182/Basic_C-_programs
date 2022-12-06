@@ -8,6 +8,6 @@ namespace page302
 {
     interface IQuittable
     {
-        void Quit(Employee employee);
+        void Quit();
     }
 }

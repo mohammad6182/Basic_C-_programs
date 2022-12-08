@@ -1,0 +1,7 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\bin\Debug\Page325Enum.exe.config
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\bin\Debug\Page325Enum.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\bin\Debug\Page325Enum.pdb
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\obj\Debug\Page325Enum.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\obj\Debug\Page325Enum.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\obj\Debug\Page325Enum.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page325Enum\Page325Enum\obj\Debug\Page325Enum.pdb

@@ -10,10 +10,19 @@ namespace Page325Enum
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What day it is?");
+            string input = Console.ReadLine();
             try
             {
-                string DayOfWeek = Enum.GetValues(typeof(T));
+                DayOfWeek MyDay = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), input);
+                Console.WriteLine("Have a Nice " + MyDay);
             }
+            catch
+            {
+                Console.WriteLine("Please enter an actual day of the week");
+
+            }
+       Console.ReadLine();
         }
     }
 }

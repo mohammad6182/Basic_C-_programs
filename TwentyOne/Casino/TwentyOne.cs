@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interface;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway 
     {
@@ -18,7 +19,7 @@ namespace TwentyOne
                 player.Stay = false;
             }
             Dealer.Hand = new List<Card>();
-            Dealer.Stay = false;
+            Dealer.stay = false;
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle();
             Console.WriteLine("Place your bet!");
@@ -33,7 +34,7 @@ namespace TwentyOne
                 }
                 Bets[player] = bet;
             }
-            for (int i= 0; i < 2; int++)
+            for (int i= 0; i < 2;i++)
             {
                 Console.WriteLine("Dealing ....");
                 foreach (Player player in Players)
@@ -72,7 +73,7 @@ namespace TwentyOne
                 while (!player.Stay)
                 {
                     Console.WriteLine("Your cards are: ");
-                    foreach (Card card in Player.Hand)
+                    foreach (Card card in player.Hand)
                     {
                         Console.Write("{0}", card.ToString());
                     }

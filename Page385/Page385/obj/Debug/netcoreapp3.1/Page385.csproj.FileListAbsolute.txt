@@ -1,0 +1,5 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\netcoreapp3.1\Page385.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\netcoreapp3.1\Page385.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\netcoreapp3.1\Page385.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\netcoreapp3.1\Page385.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\netcoreapp3.1\Page385.csproj.CoreCompileInputs.cache

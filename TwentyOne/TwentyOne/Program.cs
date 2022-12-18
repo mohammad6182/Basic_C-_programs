@@ -10,7 +10,8 @@ namespace TwentyOne
     class Program
     {
         static void Main(string[] args)
-        {
+            Player newPlayer = new Player("Jesse");
+        
             Console.WriteLine("Welcome to Grand Hotel Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
@@ -20,7 +21,7 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer = "ya")
             {
                 Player player = new Player(playerName, bank);
-                Game game = new TwentyOneGame();
+                Game game = new TwentyOne();
                 game += player;
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0)

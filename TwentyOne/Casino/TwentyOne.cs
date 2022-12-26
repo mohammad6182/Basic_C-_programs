@@ -26,7 +26,19 @@ namespace Casino.TwentyOne
             
             foreach ( Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Pleca your bet!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals");
+
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException("Security! kick this person out");
+                }
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)
                 {

@@ -1,0 +1,7 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\Page385.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\Page385.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\bin\Debug\Page385.exe.config
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\bin\Debug\Page385.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\bin\Debug\Page385.pdb
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\Page385.exe
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Page385\Page385\obj\Debug\Page385.pdb

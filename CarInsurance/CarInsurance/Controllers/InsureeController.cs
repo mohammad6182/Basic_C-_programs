@@ -19,7 +19,12 @@ namespace CarInsurance.Controllers
         {
             return View(db.Tables.ToList());
         }
+        // GET: Admin
 
+        public ActionResult Admin()
+        {
+            return View(db.Tables.ToList());
+        }
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -50,6 +55,7 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                table.Quote = getQuote(table);
                 db.Tables.Add(table);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -82,6 +88,7 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                table.Quote = getQuote(table);
                 db.Entry(table).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -124,10 +131,10 @@ namespace CarInsurance.Controllers
             base.Dispose(disposing);
         }
 
-        public ActionResult Create(InsureeController insuree, int carYear, int age, int speedingTickets, bool hasDUI, bool isFullCoverage)
+        public decimal getQuote(Table insuree)
         {
             decimal baseQuote = 50.00m;
-
+            int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
             if (age <= 18)
             {
                 baseQuote += 100.00m;
@@ -140,12 +147,12 @@ namespace CarInsurance.Controllers
             {
                 baseQuote += 25.00m;
             }
-
-            if (carYear < 2000)
+            
+            if (insuree.CarYear < 2000)
             {
                 baseQuote += 25.00m;
             }
-            else if (carYear > 2015)
+            else if (insuree.CarYear > 2015)
             {
                 baseQuote += 25.00m;
             }
@@ -160,17 +167,18 @@ namespace CarInsurance.Controllers
                 baseQuote += 25.00m;
             }
 
-            baseQuote += (10.00m * speedingTickets);
+            baseQuote += (10.00m * insuree.SpeedingTickets);
 
-            if (hasDUI)
+            if (insuree.DUI)
             {
                 baseQuote *= 1.25m;
             }
 
-            if (isFullCoverage)
+            if (insuree.CoverageType)
             {
                 baseQuote *= 1.50m;
             }
+            return baseQuote;
         }
 
     }

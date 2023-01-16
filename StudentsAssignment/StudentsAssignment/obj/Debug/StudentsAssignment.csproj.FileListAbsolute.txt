@@ -1,0 +1,2 @@
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\StudentsAssignment\StudentsAssignment\obj\Debug\StudentsAssignment.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\StudentsAssignment\StudentsAssignment\obj\Debug\StudentsAssignment.csproj.CoreCompileInputs.cache

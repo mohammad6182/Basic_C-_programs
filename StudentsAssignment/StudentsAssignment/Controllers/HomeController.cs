@@ -11,10 +11,17 @@ namespace StudentsAssignment.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
+            using (var context = new SchoolContext())
+            {
+                var student = new Student() { StudentName = "John Doe" };
+                context.Students.Add(student);
+                context.SaveChanges();
 
-        public ActionResult About()
+                var students = context.Students.ToList();
+                return View(students);
+            }
+
+            public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 

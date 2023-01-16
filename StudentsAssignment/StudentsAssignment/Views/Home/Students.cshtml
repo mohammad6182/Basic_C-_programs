@@ -1,0 +1,19 @@
+﻿@model IEnumerable<YourProjectName.Models.Student>
+
+<table>
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.StudentId</td>
+                <td>@student.StudentName</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome, The Time is down there. &#128519; </h1>
+    <h2> My H2 element  </h2></h2>
+    <p id="demo"></p>
+    <script>
+setInterval(myTimer, 1000);
+
+        function myTimer() {
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d.toLocaleDateString() + ' ' + d.toLocaleTimeString();
+        }
+
+    </script>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

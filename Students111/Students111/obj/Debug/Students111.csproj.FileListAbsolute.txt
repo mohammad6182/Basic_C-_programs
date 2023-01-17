@@ -5,7 +5,6 @@ C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\bin\De
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\bin\Debug\EntityFramework.xml
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\obj\Debug\Students111.csproj.AssemblyReference.cache
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\obj\Debug\Students111.csproj.CoreCompileInputs.cache
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\obj\Debug\Students111.csproj.CopyComplete
 C:\Users\moham\OneDrive\Desktop\Basic_C#_programs\Students111\Students111\obj\Debug\Students111.exe

@@ -13,7 +13,7 @@ namespace Students111
         {
             using (var ctx = new SchoolContext())
             {
-                var student = new Student() { StudentName = "Bill" };
+                var student = new Student() { StudentName = "ALEX" };
 
                 ctx.Students.Add(student);
                 ctx.SaveChanges();
